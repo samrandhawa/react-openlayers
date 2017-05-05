@@ -98,11 +98,9 @@ export class Map extends React.Component<any, any> {
 
   render() {
     return (
-      <div style= { { height: '100%' } }>
         <div className="openlayers-map" ref={(el)=> this.mapDiv = el}>
           {this.props.children}
         </div>
-      </div>
     );
   }
 
